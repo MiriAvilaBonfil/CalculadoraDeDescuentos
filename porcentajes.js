@@ -33,7 +33,7 @@ function percentOfDiscount() {
     const priceFValue = inputPriceF.value;
 
 
-    const porcentajeConDescuento = calcularPorcentajeDescuento(sinDescuentoValue, priceFValue);
+    const porcentajeConDescuento = (calcularPorcentajeDescuento(sinDescuentoValue, priceFValue)).toFixed(1);
 
     document.getElementById("ResultPer").innerText = `El porcentaje de descuento es del ${porcentajeConDescuento}%.`
 
