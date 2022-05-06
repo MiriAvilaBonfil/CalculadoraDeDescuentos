@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header{
+   
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 6rem;
+    padding-top: 5rem;
+}
+
+
+main {
+    height: 90vh; 
+
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 4rem;
+    padding: 10rem;
+
+}
+
+label {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    
+   
+
+}
+
+
+section.box1 {
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+section.box2 {
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 1rem;
+    border: .01rem solid;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    color: black;
+    margin: 1rem;
+}
+
+input {
+    border-radius: 1rem;
+    border: .01rem solid;
+    padding: .5rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
