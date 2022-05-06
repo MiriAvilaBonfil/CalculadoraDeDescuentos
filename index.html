@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de descuentos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class = "encabezado">
+    <h1> Calculadora de descuentos</h1>
+   </header> 
+
+<main class = "main-container">
+    <section class="box1">
+        <h2 class="titulo">Calcula el precio con descuento</h2>
+        <form action="">
+            <label for="inputPrecio"> <b>Escribe el precio de tu producto </b></label>
+            <input type="number" id="inputPrecio"  /> 
+            <label for="inputDescuento"> <b>Escribe el descuento</b></label>
+            <input type="number" id="inputDescuento" />
+            <button type ="button" onclick="finalPriceWithDiscount()"> <b>Calcular precio con descuento</b> </button>
+            <p id="ResultP"></p>
+        </form>
+        </section>
+
+        <section class="box2">
+            <h2>Calcula el porcentaje de descuento</h2>
+            <form action="">
+                <label for="inputSinDescuento"> <b>Escribe el precio de tu producto</b></label>
+                <input type="number" id="inputSinDescuento" /> 
+                <label for="inputPrecioF"> <b>Escribe el precio con descuento</b></label>
+                <input type="number" id="inputPrecioF" />
+                <button type ="button" onclick="percentOfDiscount()"> <b>Calcular el porcentaje de descuento </b> </button>
+                <p id="ResultPer"></p>
+            </form>
+
+        </section>
+       
+</main>
+
+    <script src= "./porcentajes.js"></script>
+</body>
+</html>
